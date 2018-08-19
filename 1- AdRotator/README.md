@@ -1,6 +1,6 @@
-1 -  Create  an XML file. Name the XML file as adsData.xml 
+#1 -  Create  an XML file. Name the XML file as adsData.xml 
 
-2 -  Copy and paste the following in the XML file.
+#2 -  Copy and paste the following in the XML file.
 ```xml
     <Advertisements>
       <Ad>
@@ -29,9 +29,9 @@
       </Ad>
     </Advertisements>
 ```
-3 - Create an Images folder in the project, and add the images (~/Images/ads1.png , ~/Images/ads2.png , ~/Images/ads3.png) in Images folder .
+#3 - Create an Images folder in the project, and add the images (~/Images/ads1.png , ~/Images/ads2.png , ~/Images/ads3.png) in Images folder .
 
-4. in "Default.aspx" Drag and Drop the AdRotator control on the webform. AdvertisementFile="~/adsData.xml".
+#4. in "Default.aspx" Drag and Drop the AdRotator control on the webform. AdvertisementFile="~/adsData.xml".
 
 ```asp
  <asp:AdRotator ID="AdRotator1" AdvertisementFile="~/adsData.xml" runat="server" Width="300" Height="250" />

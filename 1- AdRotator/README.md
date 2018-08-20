@@ -1,4 +1,4 @@
-# AdRotator control example in asp using vb.net
+# AdRotator control in ASP.NET using VB.NET
 
 ### 1 -  Create  an XML file. Name the XML file as adsData.xml #
 
